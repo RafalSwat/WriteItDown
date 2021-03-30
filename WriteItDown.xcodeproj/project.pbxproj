@@ -10,11 +10,11 @@
 		0725E811260A0B0D0030B51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E810260A0B0D0030B51A /* AppDelegate.swift */; };
 		0725E813260A0B0D0030B51A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E812260A0B0D0030B51A /* SceneDelegate.swift */; };
 		0725E815260A0B0D0030B51A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E814260A0B0D0030B51A /* ViewController.swift */; };
-		0725E818260A0B0D0030B51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0725E816260A0B0D0030B51A /* Main.storyboard */; };
 		0725E81B260A0B0D0030B51A /* WriteItDown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0725E819260A0B0D0030B51A /* WriteItDown.xcdatamodeld */; };
 		0725E81D260A0B0F0030B51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0725E81C260A0B0F0030B51A /* Assets.xcassets */; };
 		0725E820260A0B0F0030B51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0725E81E260A0B0F0030B51A /* LaunchScreen.storyboard */; };
-		079A9FB8260B559700A7C941 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079A9FB7260B559700A7C941 /* ToDoItem.swift */; };
+		079A9FBD260B937E00A7C941 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079A9FBC260B937E00A7C941 /* TableViewCell.swift */; };
+		079A9FC0260CA74C00A7C941 /* AddToDoPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079A9FBF260CA74C00A7C941 /* AddToDoPopup.swift */; };
 		4ADE5F2BF0887415891620AD /* Pods_WriteItDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEB610B927665525BDF27B5 /* Pods_WriteItDown.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +23,12 @@
 		0725E810260A0B0D0030B51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0725E812260A0B0D0030B51A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0725E814260A0B0D0030B51A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0725E817260A0B0D0030B51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0725E81A260A0B0D0030B51A /* WriteItDown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WriteItDown.xcdatamodel; sourceTree = "<group>"; };
 		0725E81C260A0B0F0030B51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0725E81F260A0B0F0030B51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0725E821260A0B0F0030B51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		079A9FB7260B559700A7C941 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		079A9FBC260B937E00A7C941 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		079A9FBF260CA74C00A7C941 /* AddToDoPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoPopup.swift; sourceTree = "<group>"; };
 		0A311E93ACF4701953C7C7FC /* Pods-WriteItDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WriteItDown.release.xcconfig"; path = "Target Support Files/Pods-WriteItDown/Pods-WriteItDown.release.xcconfig"; sourceTree = "<group>"; };
 		0AEB610B927665525BDF27B5 /* Pods_WriteItDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WriteItDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723E2A2416CCC69251418283 /* Pods-WriteItDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WriteItDown.debug.xcconfig"; path = "Target Support Files/Pods-WriteItDown/Pods-WriteItDown.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,12 +70,12 @@
 				0725E810260A0B0D0030B51A /* AppDelegate.swift */,
 				0725E812260A0B0D0030B51A /* SceneDelegate.swift */,
 				0725E814260A0B0D0030B51A /* ViewController.swift */,
+				079A9FBC260B937E00A7C941 /* TableViewCell.swift */,
+				079A9FBF260CA74C00A7C941 /* AddToDoPopup.swift */,
 				079A9FB6260B555300A7C941 /* Model */,
-				0725E816260A0B0D0030B51A /* Main.storyboard */,
 				0725E81C260A0B0F0030B51A /* Assets.xcassets */,
 				0725E81E260A0B0F0030B51A /* LaunchScreen.storyboard */,
 				0725E821260A0B0F0030B51A /* Info.plist */,
-				0725E819260A0B0D0030B51A /* WriteItDown.xcdatamodeld */,
 			);
 			path = WriteItDown;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 		079A9FB6260B555300A7C941 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				079A9FB7260B559700A7C941 /* ToDoItem.swift */,
+				0725E819260A0B0D0030B51A /* WriteItDown.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,7 +166,6 @@
 			files = (
 				0725E820260A0B0F0030B51A /* LaunchScreen.storyboard in Resources */,
 				0725E81D260A0B0F0030B51A /* Assets.xcassets in Resources */,
-				0725E818260A0B0D0030B51A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +220,9 @@
 			files = (
 				0725E81B260A0B0D0030B51A /* WriteItDown.xcdatamodeld in Sources */,
 				0725E815260A0B0D0030B51A /* ViewController.swift in Sources */,
-				079A9FB8260B559700A7C941 /* ToDoItem.swift in Sources */,
+				079A9FBD260B937E00A7C941 /* TableViewCell.swift in Sources */,
 				0725E811260A0B0D0030B51A /* AppDelegate.swift in Sources */,
+				079A9FC0260CA74C00A7C941 /* AddToDoPopup.swift in Sources */,
 				0725E813260A0B0D0030B51A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,14 +230,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0725E816260A0B0D0030B51A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0725E817260A0B0D0030B51A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0725E81E260A0B0F0030B51A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

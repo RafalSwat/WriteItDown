@@ -6,8 +6,8 @@ Simple application working as "ToDo" app which marks usere's notes on the calend
 
 ## Gifs
 
-![gif 1](gifs/gif1.gif) ![gif 2](gifs/gif2.gif) 
-![gif 3](gifs/gif3.gif) ![gif 4](gifs/gif4.gif)
+![gif 1](https://media.giphy.com/media/lNvfKKKQMRtWw0vRus/giphy.gif) ![gif 2](https://media.giphy.com/media/gKNxRqlfkFWU15ZFo8/giphy.gif) 
+![gif 3](https://media.giphy.com/media/j1qOvo9ktvKvm7mRgP/giphy.gif) ![gif 4](https://media.giphy.com/media/TCH3g8JMZp5xuD0wtL/giphy.gif)
 
 ## Technologies
 

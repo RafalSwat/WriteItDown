@@ -2,7 +2,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftIcons.svg)](http://cocoadocs.org/docsets/SwiftIcons) ![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg)
 ## Description
 
-Simple application working as "ToDo" app which marks usere's notes on the calendar.
+Simple application working as "ToDo" app which marks useres notes on the calendar.
 
 ## Gifs
 
